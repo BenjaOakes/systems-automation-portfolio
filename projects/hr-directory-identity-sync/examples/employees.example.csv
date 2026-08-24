@@ -1,0 +1,12 @@
+employee_id,given_name,surname,work_email,department,brand,employee_type,status,manager_employee_id
+E1001,Ada,North,ada.north@northstar.example,engineering,northstar,employee,active,E1002
+E1002,Beau,West,beau.west@northstar.example,engineering,northstar,employee,active,
+E1003,Cleo,Stone,cleo.stone@northstar.example,research,northstar,employee,active,E1002
+E1004,Drew,Lake,drew.lake@lighthouse.example,operations,lighthouse,employee,active,E1002
+E1005,Evan,Ray,evan.ray@northstar.example,engineering,northstar,employee,terminated,E1002
+E1006,Faye,Quill,faye.quill@northstar.example,research,northstar,employee,active,E1002
+E1006,Faye,Quill,faye.quill.duplicate@northstar.example,research,northstar,employee,active,E1002
+E1007,Gale,Rowan,ambiguous@northstar.example,engineering,northstar,employee,active,E1002
+E1008,Hale,Stone,hale.stone@northstar.example,engineering,northstar,employee,active,E1002
+E1009,Iris,Park,iris.park@northstar.example,operations,northstar,employee,active,E9999
+E1010,,Invalid,not-an-email,engineering,northstar,employee,active,E1002

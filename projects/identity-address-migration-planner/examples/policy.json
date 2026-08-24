@@ -1,0 +1,12 @@
+{
+  "default_brand": "brand-a",
+  "brand_domains": {
+    "brand-a": "brand-a.example",
+    "brand-b": "brand-b.example",
+    "brand-c": "brand-c.example"
+  },
+  "department_domains": {
+    "research": "brand-c.example",
+    "engineering": "brand-a.example"
+  }
+}

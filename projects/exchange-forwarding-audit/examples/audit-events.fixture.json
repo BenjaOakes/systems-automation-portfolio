@@ -1,0 +1,4 @@
+[
+  {"UserPrincipalName":"analyst.one@brand-a.example","Timestamp":"2030-06-01T12:00:00Z","Operation":"Set-MailboxForwardingAddress","Source":"SyntheticAudit"},
+  {"UserPrincipalName":"former.user@brand-b.example","Timestamp":"2030-05-01T12:00:00Z","Operation":"Remove-MailboxForwardingAddress","Source":"SyntheticAudit"}
+]

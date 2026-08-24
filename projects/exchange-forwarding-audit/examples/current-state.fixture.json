@@ -1,0 +1,4 @@
+[
+  {"UserPrincipalName":"analyst.one@brand-a.example","ForwardingEnabled":true,"ForwardingAddress":"route@example.invalid","DeliverToMailboxAndForward":true},
+  {"UserPrincipalName":"operator.two@brand-a.example","ForwardingEnabled":false,"ForwardingAddress":null,"DeliverToMailboxAndForward":false}
+]

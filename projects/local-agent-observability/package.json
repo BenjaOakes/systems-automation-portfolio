@@ -1,0 +1,20 @@
+{
+  "name": "local-agent-observability",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first, privacy-aware observability primitives for synthetic agent session events",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test tests/*.test.ts",
+    "dev": "tsx src/index.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

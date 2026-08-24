@@ -1,0 +1,10 @@
+{
+  "default_brand": "northstar",
+  "brand_domains": {
+    "northstar": "northstar.example",
+    "lighthouse": "lighthouse.example"
+  },
+  "department_domains": {
+    "research": "lighthouse.example"
+  }
+}

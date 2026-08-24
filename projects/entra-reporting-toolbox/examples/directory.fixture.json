@@ -1,0 +1,17 @@
+{
+  "users": [
+    {"Id":"user-001","DisplayName":"Aster Example","UserPrincipalName":"user.one@brand-a.example","Mail":"user.one@brand-a.example","AccountEnabled":true,"CreatedDateTime":"2029-01-01T00:00:00Z","LastSignInDateTime":"2029-12-01T00:00:00Z"},
+    {"Id":"user-002","DisplayName":"Blue Sample","UserPrincipalName":"user.two@brand-b.example","Mail":"user.two@brand-b.example","AccountEnabled":false,"CreatedDateTime":"2028-01-01T00:00:00Z","LastSignInDateTime":null},
+    {"Id":"user-003","DisplayName":"Casey Fixture","UserPrincipalName":"user.three@brand-a.example","Mail":"user.three@brand-a.example","AccountEnabled":true,"CreatedDateTime":"2029-01-01T00:00:00Z","LastSignInDateTime":"2030-02-01T00:00:00Z"}
+  ],
+  "groups": [
+    {"Id":"group-001","DisplayName":"Synthetic Operators","Members":[{"Id":"user-001"},{"Id":"user-003"}]}
+  ],
+  "applications": [
+    {"AppId":"app-001","DisplayName":"Fixture Inventory"}
+  ],
+  "signIns": [
+    {"AppId":"app-001","CreatedDateTime":"2030-02-01T09:00:00Z","UserPrincipalName":"user.one@brand-a.example","Status":"Success","FailureReason":null},
+    {"AppId":"app-001","CreatedDateTime":"2030-02-02T09:00:00Z","UserPrincipalName":"user.two@brand-b.example","Status":"Failure","FailureReason":"Synthetic failure"}
+  ]
+}

@@ -1,0 +1,11 @@
+brand_mappings:
+  northstar: northstar.example
+  lighthouse: lighthouse.example
+department_mappings:
+  engineering: group-engineering
+  research: group-research
+  operations: group-operations
+employee_type_behavior:
+  employee: enabled
+  contractor: enabled
+  terminated: disabled

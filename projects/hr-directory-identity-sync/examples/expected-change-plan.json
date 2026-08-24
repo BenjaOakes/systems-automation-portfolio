@@ -1,0 +1,16 @@
+{
+  "expected_statuses": {
+    "E1001": "Create",
+    "E1002": "NoChange",
+    "E1003": "Update",
+    "E1004": "Update",
+    "E1005": "Disable",
+    "E1006": "Blocked",
+    "E1007": "Blocked",
+    "E1008": "Blocked",
+    "E1009": "ReviewRequired",
+    "E1010": "Blocked"
+  },
+  "blocked_reasons": ["duplicate_hr_employee_id", "ambiguous_directory_match", "upn_or_mail_collision", "invalid_work_email"],
+  "execution": "dry_run_by_default"
+}

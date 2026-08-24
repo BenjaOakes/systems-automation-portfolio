@@ -1,0 +1,12 @@
+{
+  "sourceComplete": true,
+  "targetComplete": true,
+  "source": [
+    {"Id":"user-001","UserPrincipalName":"member.one@brand-a.example","Mail":"member.one@brand-a.example"},
+    {"Id":"user-002","UserPrincipalName":"member.two@brand-a.example","Mail":"member.two@brand-a.example"}
+  ],
+  "target": [
+    {"PrimarySmtpAddress":"member.one@brand-a.example"},
+    {"PrimarySmtpAddress":"old.member@brand-a.example"}
+  ]
+}

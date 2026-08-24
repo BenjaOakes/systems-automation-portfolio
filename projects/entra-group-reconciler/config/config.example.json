@@ -1,0 +1,8 @@
+{
+  "source_provider": "synthetic-source",
+  "target_provider": "synthetic-target",
+  "max_changes": 20,
+  "page_size": 2,
+  "identity_keys": ["provider_id", "user_principal_name", "mail", "primary_smtp_address"],
+  "execute": false
+}

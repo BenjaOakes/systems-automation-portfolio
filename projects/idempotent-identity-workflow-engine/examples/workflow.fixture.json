@@ -1,0 +1,5 @@
+{
+  "identityId": "fixture-user-001",
+  "protectedIdentities": ["fixture-break-glass"],
+  "phases": ["SuspendIdentity", "RemoveGroupMemberships", "DisableMailbox", "RetireDevices"]
+}

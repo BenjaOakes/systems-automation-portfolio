@@ -1,0 +1,13 @@
+{
+  "authentication": {
+    "mode": "certificate",
+    "tenant_id": "tenant-example-id",
+    "application_id": "application-example-id",
+    "certificate_reference": "CurrentUser/My/THUMBPRINT_FROM_CERTIFICATE_STORE"
+  },
+  "ad": {
+    "domain": "corp.example.invalid",
+    "search_base": "OU=People,DC=corp,DC=example,DC=invalid"
+  },
+  "execution": {"dry_run": true, "max_changes": 25}
+}

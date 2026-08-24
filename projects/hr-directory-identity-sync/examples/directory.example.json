@@ -1,0 +1,17 @@
+{
+  "entra": [
+    {"object_id":"entra-e1002","employee_id":"E1002","display_name":"Beau West","user_principal_name":"beau.west@northstar.example","mail":"beau.west@northstar.example","enabled":true,"department":"engineering","brand":"northstar","employee_type":"employee","manager_employee_id":null,"groups":["group-engineering"]},
+    {"object_id":"entra-e1003","employee_id":"E1003","display_name":"Cleo Stone","user_principal_name":"cleo.stone@northstar.example","mail":"cleo.stone@northstar.example","enabled":true,"department":"engineering","brand":"northstar","employee_type":"employee","manager_employee_id":"E1002","groups":["group-engineering"]},
+    {"object_id":"entra-e1004","employee_id":"E1004","display_name":"Drew Lake","user_principal_name":"drew.lake@northstar.example","mail":"drew.lake@northstar.example","enabled":true,"department":"operations","brand":"northstar","employee_type":"employee","manager_employee_id":"E1002","groups":["group-operations"]},
+    {"object_id":"entra-e1005","employee_id":"E1005","display_name":"Evan Ray","user_principal_name":"evan.ray@northstar.example","mail":"evan.ray@northstar.example","enabled":true,"department":"engineering","brand":"northstar","employee_type":"employee","manager_employee_id":"E1002","groups":["group-engineering"]},
+    {"object_id":"entra-amb-1","employee_id":"","display_name":"Ambiguous One","user_principal_name":"ambiguous@northstar.example","mail":"ambiguous@northstar.example","enabled":true,"department":"engineering","brand":"northstar","groups":["group-engineering"]},
+    {"object_id":"entra-collision","employee_id":"E9998","display_name":"Collision Holder","user_principal_name":"hale.stone@northstar.example","mail":"hale.stone@northstar.example","enabled":true,"department":"engineering","brand":"northstar","groups":["group-engineering"]}
+  ],
+  "ad": [
+    {"object_id":"ad-e1002","employee_id":"E1002","display_name":"Beau West","user_principal_name":"beau.west@northstar.example","mail":"beau.west@northstar.example","enabled":true,"department":"engineering","brand":"northstar","employee_type":"employee","manager_employee_id":null,"groups":["group-engineering"]},
+    {"object_id":"ad-e1003","employee_id":"E1003","display_name":"Cleo Stone","user_principal_name":"cleo.stone@northstar.example","mail":"cleo.stone@northstar.example","enabled":true,"department":"engineering","brand":"northstar","employee_type":"employee","manager_employee_id":"E1002","groups":["group-engineering"]},
+    {"object_id":"ad-e1004","employee_id":"E1004","display_name":"Drew Lake","user_principal_name":"drew.lake@northstar.example","mail":"drew.lake@northstar.example","enabled":true,"department":"operations","brand":"northstar","employee_type":"employee","manager_employee_id":"E1002","groups":["group-operations"]},
+    {"object_id":"ad-e1005","employee_id":"E1005","display_name":"Evan Ray","user_principal_name":"evan.ray@northstar.example","mail":"evan.ray@northstar.example","enabled":true,"department":"engineering","brand":"northstar","employee_type":"employee","manager_employee_id":"E1002","groups":["group-engineering"]},
+    {"object_id":"ad-amb-2","employee_id":"","display_name":"Ambiguous Two","user_principal_name":"other@northstar.example","mail":"ambiguous@northstar.example","enabled":true,"department":"engineering","brand":"northstar","groups":["group-engineering"]}
+  ]
+}

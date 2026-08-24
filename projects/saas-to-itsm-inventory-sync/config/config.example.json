@@ -1,0 +1,9 @@
+{
+  "field_map": {
+    "name": "name",
+    "kind": "service_type"
+  },
+  "max_changes": 25,
+  "retry_attempts": 3,
+  "dry_run": true
+}

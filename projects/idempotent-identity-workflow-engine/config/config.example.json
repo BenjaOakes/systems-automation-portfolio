@@ -1,0 +1,7 @@
+{
+  "identity_id": "fixture-user-001",
+  "protected_identities": ["fixture-break-glass"],
+  "phases": ["SuspendIdentity", "RemoveGroupMemberships", "DisableMailbox", "RetireDevices"],
+  "max_attempts": 3,
+  "write_preview": false
+}

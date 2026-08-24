@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "domain-certificate-observer"
+version = "0.1.0"
+description = "Fixture-first DNS, TLS certificate, and WHOIS observation patterns"
+requires-python = ">=3.10"
+
+[project.scripts]
+domain-observe = "domain_observer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,26 @@
+default_brand: northstar
+brand_domains:
+  northstar: northstar.example
+  lighthouse: lighthouse.example
+department_to_groups:
+  engineering:
+    - group-engineering
+  research:
+    - group-research
+  operations:
+    - group-operations
+employee_type_rules:
+  employee:
+    enabled: true
+  contractor:
+    enabled: true
+managed_attributes:
+  - display_name
+  - department
+  - brand
+  - employee_type
+  - manager_employee_id
+  - user_principal_name
+  - mail
+  - enabled
+  - groups

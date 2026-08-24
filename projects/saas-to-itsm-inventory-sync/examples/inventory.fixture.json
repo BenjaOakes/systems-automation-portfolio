@@ -1,0 +1,14 @@
+{
+  "field_map": {"name": "display_name", "kind": "record_type"},
+  "source_pages": [
+    [
+      {"id": "app-001", "name": "Northwind Notes", "kind": "application"},
+      {"id": "app-002", "name": "Signal Board", "kind": "application"}
+    ],
+    [{"id": "app-003", "name": "Archive Lens", "kind": "application"}]
+  ],
+  "target_pages": [
+    [{"id": "cmdb-100", "name": "northwind notes", "kind": "application"}],
+    [{"id": "cmdb-101", "name": "Signal Board", "kind": "service"}]
+  ]
+}

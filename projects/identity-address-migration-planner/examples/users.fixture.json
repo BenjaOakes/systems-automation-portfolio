@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "GivenName": "Aster",
+      "Surname": "Example",
+      "Department": "Engineering",
+      "Brand": "brand-a",
+      "CurrentUPN": "aster.old@legacy.example",
+      "CurrentPrimaryEmail": "aster.old@legacy.example",
+      "ExistingAliases": ["smtp:aster.old@legacy.example", "smtp:aster@example.invalid"]
+    },
+    {
+      "GivenName": "Blue",
+      "Surname": "Sample",
+      "Department": "Research",
+      "Brand": "brand-b",
+      "CurrentUPN": "blue.sample@brand-c.example",
+      "CurrentPrimaryEmail": "blue.sample@brand-c.example",
+      "ExistingAliases": []
+    },
+    {
+      "GivenName": "Casey",
+      "Surname": "Twin",
+      "Department": "Engineering",
+      "Brand": "brand-a",
+      "CurrentUPN": "casey.twin@legacy.example",
+      "CurrentPrimaryEmail": "casey.twin@legacy.example",
+      "ExistingAliases": []
+    }
+  ]
+}

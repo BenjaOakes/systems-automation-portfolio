@@ -1,0 +1,26 @@
+{
+  "expiry_warning_days": 30,
+  "expiry_critical_days": 7,
+  "domains": [
+    {
+      "domain": "docs.brand-a.example",
+      "dns_addresses": ["192.0.2.10"],
+      "certificate": {
+        "expires_at": "2099-01-01T00:00:00Z",
+        "issuer": "Synthetic Test CA",
+        "subject": "docs.brand-a.example"
+      },
+      "whois": {"status": "fixture-only", "registrar": "Example Registrar"}
+    },
+    {
+      "domain": "legacy.brand-b.example",
+      "dns_addresses": [],
+      "certificate": {
+        "expires_at": "2020-01-01T00:00:00Z",
+        "issuer": "Synthetic Test CA",
+        "subject": "legacy.brand-b.example"
+      },
+      "errors": ["dns:FixtureMissing"]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "domains": ["example.com", "example.org", "api.example.net"],
+  "expiration_warning_days": 30,
+  "expiration_critical_days": 7,
+  "timeout_seconds": 10,
+  "max_workers": 4,
+  "cache_ttl_seconds": 300,
+  "whois_interval_seconds": 1
+}
