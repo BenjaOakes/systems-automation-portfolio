@@ -1,3 +1,0 @@
-{"sessionId":"fixture-session-001","agent":"synthetic-agent","timestamp":"2030-01-01T10:00:00Z","role":"user","content":"Review the deployment checklist for docs.brand-a.example"}
-{"sessionId":"fixture-session-001","agent":"synthetic-agent","timestamp":"2030-01-01T10:00:02Z","role":"assistant","content":"The checklist has three synthetic steps. A sensitive marker and local-file-token are redacted."}
-{"sessionId":"fixture-session-002","agent":"synthetic-agent","timestamp":"2030-01-02T11:00:00Z","role":"tool","content":"status=ok; contact=operator@brand-b.example"}

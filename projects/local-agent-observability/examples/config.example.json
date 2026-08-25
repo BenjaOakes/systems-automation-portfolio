@@ -1,9 +1,0 @@
-{
-  "inputFiles": ["examples/session.fixture.jsonl"],
-  "stateDirectory": ".local-state",
-  "outputFile": "local-report.json",
-  "noNetwork": true,
-  "redactLocalPaths": true,
-  "hashSessionIds": true,
-  "maxEvents": 100000
-}
